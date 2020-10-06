@@ -1,0 +1,44 @@
+<div class="container">
+    <div class="row">
+        <div class="col-md-3">
+            <div #external class="mt-5 border p-3">
+                <p>
+                  <strong >Draggable Events</strong>
+                </p>
+                <hr>
+                <div class='fc-event fc-h-event fc-daygrid-event fc-daygrid-block-event'>
+                  <div class='fc-event-main bg-danger rounded p-2'>Lunch</div>
+                </div>
+                <div class='fc-event fc-h-event fc-daygrid-event fc-daygrid-block-event'>
+                  <div class='fc-event-main bg-primary rounded my-2 p-2'>Go Home</div>
+                </div>
+                <div class='fc-event fc-h-event fc-daygrid-event fc-daygrid-block-event'>
+                  <div class='fc-event-main bg-info rounded p-2'>Do Homework</div>
+                </div>
+                <div class='fc-event fc-h-event fc-daygrid-event fc-daygrid-block-event'>
+                  <div class='fc-event-main bg-success rounded my-2 p-2'>Do UI Design</div>
+                </div>
+                <div class='fc-event fc-h-event fc-daygrid-event fc-daygrid-block-event'>
+                  <div class='fc-event-main bg-warning rounded p-2'>Sleep Tight</div>
+                </div>
+                   <hr>
+                <div class="mt-3 ">
+                  <p>
+                    <input type='checkbox' id="checkBox" />
+                    <label class="text-capitalize pl-1" for='drop-remove'>remove after drop</label>
+                  </p>
+                  </div>
+              </div>
+              
+              
+        </div>
+        <div class="col-md-9">
+          <div class="calendar-container">
+            <full-calendar [options]="calendarOptions" class="mt-5">
+            </full-calendar>
+            </div>
+    
+        </div>
+    </div>
+    </div>
+    
